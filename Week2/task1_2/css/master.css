@@ -1,0 +1,17 @@
+body {
+    height: 2000px;
+
+}
+
+div {
+
+
+    margin: 10px 0px;
+    padding: 10px;
+    color: white;
+    background-color: #A52A2A;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 50px;
+    overflow: hidden;
+}

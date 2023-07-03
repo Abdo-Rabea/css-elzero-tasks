@@ -1,0 +1,36 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    background-color: #EFEFEF;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+
+    border-left: 4px solid #DF1960;
+    position: relative;
+}
+
+p::before {
+    content: attr(data-person);
+    background-color: #DDDDDD;
+    padding: 10px;
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    margin-top: -19.25px;
+
+}
+
+p::after {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #DF1960 transparent transparent;
+    position: absolute;
+    left: -23px;
+    top: 50%;
+    margin-top: -9.6px;
+}

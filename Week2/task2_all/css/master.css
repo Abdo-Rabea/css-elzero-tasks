@@ -1,0 +1,85 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    width: fit-content;
+    padding: 20px 30px;
+    margin: auto;
+    background-color: #eee;
+    font-size: 20px;
+}
+
+/* Start Task 1 */
+
+
+.task1 .shadow {
+    text-shadow: .5px .5px 0px #F44336,
+        1px 1px 0px #3589EB,
+        1.5px 1.5px 0px #9728B3;
+    font-size: 40px;
+}
+
+
+/* End Task 1 */
+
+
+/* Start Task 2 */
+.task2 .one {
+    text-transform: uppercase;
+}
+
+.task2 .two {
+    text-transform: capitalize;
+}
+
+.task2 .three {
+    text-transform: lowercase;
+}
+
+/* End Task 2 */
+
+/* Start Task 3 */
+.task3 .one,
+.task3 .two,
+.task3 .three {
+    background-color: #eee;
+    margin: 10px 0px;
+    padding: 15px;
+    width: 400px;
+}
+
+.task3 .three {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.task3 .three:hover {
+    white-space: normal;
+}
+
+/* End Task 3 */
+
+
+/* Start Task 4 */
+
+.task4 a {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+
+    background-color: #2F9688;
+    color: white;
+
+    width: fit-content;
+    padding: 15px 30px;
+    margin: 20px auto;
+    border-bottom: 8px solid #15514A;
+
+}
+
+/* End Task 4 */

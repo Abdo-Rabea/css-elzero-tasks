@@ -1,0 +1,25 @@
+body {
+    height: 2000px;
+
+}
+
+div {
+    background-color: #eee;
+    padding: 10px;
+    margin: 40px;
+    width: 400px;
+    outline: 10px solid #eee;
+    border-left: 5px solid red;
+}
+
+.one {
+    border-color: #E91E63;
+}
+
+.two {
+    visibility: hidden;
+}
+
+.three {
+    border-color: #029688;
+}

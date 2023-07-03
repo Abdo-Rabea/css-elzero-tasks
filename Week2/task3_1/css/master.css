@@ -1,0 +1,17 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: blue; */
+}
+
+div {
+    border: 2px solid #F55500;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    background-color: #DDDDDD;
+    border: inherit;
+    padding: inherit;
+}
