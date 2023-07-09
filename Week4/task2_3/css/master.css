@@ -1,0 +1,86 @@
+body {
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0; */
+}
+
+.parent {
+    /* box-sizing: border-box; */
+    width: 550px;
+    height: 323px;
+    overflow: hidden;
+    margin: 20px auto;
+    /* background-color: red; */
+}
+
+
+.parent div {
+    float: left;
+}
+
+.parent .container {
+    background-color: #eee;
+    width: 250px;
+
+    /* overflow: hidden; */
+}
+
+.parent .container .type {
+    box-sizing: border-box;
+    background-color: #3BAAF7;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.parent .container .price {
+    box-sizing: border-box;
+    background-color: #DDDDDD;
+    width: 200px;
+    height: 200px;
+    margin: 25px 0px 25px 25px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.parent .container .price span {
+    font-size: 40px;
+    text-align: center;
+    width: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -23px;
+    margin-left: -42.5px;
+}
+
+.parent .vl {
+    border-left: 1px solid #3BAAF7;
+    margin-left: 24px;
+    margin-right: 25px;
+    height: 100%;
+    position: relative;
+}
+
+.parent .vl::after {
+    content: "Or";
+    position: absolute;
+    background-color: #3BAAF7;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+
+    font-size: 10px;
+    font-weight: bold;
+    top: 50%;
+    left: 0px;
+    margin-top: -10.95px;
+    margin-left: -10.84px;
+
+}
